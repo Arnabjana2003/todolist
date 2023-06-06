@@ -29,6 +29,7 @@ h4{
 
 input{
   padding: 4px;
+  width: 75%;
 }
 
 
@@ -38,6 +39,7 @@ width: 50px;
 font-weight: 600;
 background: lightgreen;
 border: none;
+margin-left: 7px;
 }
 
 
