@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, pink, #fff);
+}
+
+.inner-container {
+  position: relative;
+  top: 15%;
+  margin: 0 auto;
+  max-width: 88%;
+  background: linear-gradient(to top right, #fff, pink);
+  padding: 10px;
+
+  
+  
+}
+
+h4{
+  padding-block: 5px;
+}
+
+
+input{
+  padding: 4px;
+}
+
+
+.add{
+padding: 4px;
+width: 50px;
+font-weight: 600;
+background: lightgreen;
+border: none;
+}
+
+
+.lower-box{
+  margin-top: 15px;
+}
+
+.todo{
+  background: white;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+.todo p{
+  flex-grow: 1;
+}
+
+.edit{
+  height: 25px;
+  padding: 3px;
+  margin-inline: 10px 2px;
+  background: green;
+  color: white;
+}
+
+.delete{
+  height: 25px;
+  padding: 3px;
+  margin-inline: 5px 0;
+  background: red;
+  color: white;
+}
