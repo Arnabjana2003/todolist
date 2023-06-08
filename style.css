@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 97.5vh;
+  background: linear-gradient(to top right, pink, lightblue);
+}
+
+.inner-container {
+  position: relative;
+  top: 15%;
+  margin: 0 auto;
+  max-width: 88%;
+  background: linear-gradient(to top right, skyblue, pink);
+  padding: 10px;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 5px;
+}
+
+h4{
+  font-size: 1.2rem;
+  padding-block: 5px;
+}
+
+.upper-box p{
+  padding-block: 0 6px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+
+input{
+  padding: 4px;
+  width: 75%;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+}
+
+
+.add{
+padding: 4px;
+width: 40px;
+height: 40px;
+font-weight: 700;
+font-size: 1rem;
+border-radius: 4px;
+background: lightgreen;
+border: none;
+margin-left: 10px;
+width: 15%;
+box-shadow: 2px 2px 6px green;
+}
+
+
+.lower-box{
+  margin-top: 20px;
+}
+
+.todo{
+  background: white;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+.todo p{
+  flex-grow: 1;
+}
+
+.edit{
+  height: 25px;
+  padding: 3px;
+  margin-inline: 10px 2px;
+  background: green;
+  color: white;
+  border: none;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.delete{
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  height: 25px;
+  padding: 3px;
+  margin-inline: 5px 0;
+  background: red;
+  color: white;
+}
+
+footer{
+  text-align: center;
+  padding: 3px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: black;
+  color: white;
+}
